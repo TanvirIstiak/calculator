@@ -1,0 +1,55 @@
+.section{
+    height: 600px;
+    max-width: 500px;
+    background-image: url(background.jpg); 
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-interface{
+    height: 500px;
+    width: 400px;
+    background: rgb(222, 227, 226);
+}
+
+.result{
+    height: 100px;
+    width: auto;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px;
+}
+
+.button-input{
+    height: 400px;
+    background: rgb(184, 191, 184);
+    display: flex;
+    justify-content: center;
+}
+
+.input-sum{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background: orange;
+    margin: 20px;
+}
+
+.input-sum:hover{
+    background: whitesmoke;
+}
+
+.input-number{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.input-number:hover{
+    background: orange;
+}
